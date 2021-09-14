@@ -2,6 +2,8 @@
 // MAP
 // ==========================================
 
+// The callback runs for each value in the array and returns each new value in the resulting array.
+
 // What you have
 var officers = [
   { id: 20, name: 'Captain Piett' },
