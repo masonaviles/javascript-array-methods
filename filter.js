@@ -3,6 +3,7 @@
 // ==========================================
 
 // What if you have an array, but only want some of the elements in it? That’s where .filter() comes in!
+// Filter creates a new array which contains every element of an array that matches a specified criteria.
 
 var pilots = [
   {

@@ -19,3 +19,10 @@ console.log(pets.includes('cat'));
 
 console.log(pets.includes('at'));
 // expected output: false
+
+var pets = ['dog', 'cat', 'hamster'];
+
+console.log(pets.includes('dog'));
+// output: true
+console.log(pets.includes('dinosaur'));
+// output: false

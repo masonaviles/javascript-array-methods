@@ -11,6 +11,11 @@ const found = array1.find(element => element > 10);
 console.log(found);
 // expected output: 12
 
+// ==========================================
+
+var array = ["puppies", "dogs", "puppy", "my dog", "doggo"];   
+var output = array.find((dog)=>{ return dog === "my dog"; });
+//output: "my dog"
 
 // ==========================================
 // Syntax
